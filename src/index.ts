@@ -41,8 +41,8 @@ function blowup (string: string): string {
       } else {
         for (let i = 0; i < index; i++) {
           answer.push(indexNextString)
-          continue
         }
+        continue
       }
       // if the indexString is the last character in the string
     } else {
